@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c5b9d1ec-a289-441a-994f-fd5b5ea9fcd8","path":"sprites/green_hex_sprite/green_hex_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c5b9d1ec-a289-441a-994f-fd5b5ea9fcd8","path":"sprites/green_hex_sprite/green_hex_sprite.yy",},"LayerId":{"name":"ad945097-8b29-4783-9798-cabaae203391","path":"sprites/green_hex_sprite/green_hex_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"green_hex_sprite","path":"sprites/green_hex_sprite/green_hex_sprite.yy",},"resourceVersion":"1.0","name":"c5b9d1ec-a289-441a-994f-fd5b5ea9fcd8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0bd10436-e974-40d3-9201-39c638da0ae0","path":"sprites/red_hex_sprite/red_hex_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0bd10436-e974-40d3-9201-39c638da0ae0","path":"sprites/red_hex_sprite/red_hex_sprite.yy",},"LayerId":{"name":"f989241a-383a-4350-a4cc-b2594f6aee7e","path":"sprites/red_hex_sprite/red_hex_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"red_hex_sprite","path":"sprites/red_hex_sprite/red_hex_sprite.yy",},"resourceVersion":"1.0","name":"0bd10436-e974-40d3-9201-39c638da0ae0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"green_hex_sprite","path":"sprites/green_hex_sprite/green_hex_sprite.yy",},
+    "spriteId": {"name":"red_hex_sprite","path":"sprites/red_hex_sprite/red_hex_sprite.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a1d86bc7-9a50-43ba-baf5-7b98a1dc754a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c5b9d1ec-a289-441a-994f-fd5b5ea9fcd8","path":"sprites/green_hex_sprite/green_hex_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"32d1f2c1-927c-43f6-b8eb-d7970875c2c2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0bd10436-e974-40d3-9201-39c638da0ae0","path":"sprites/red_hex_sprite/red_hex_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"green_hex_sprite","path":"sprites/green_hex_sprite/green_hex_sprite.yy",},
+    "parent": {"name":"red_hex_sprite","path":"sprites/red_hex_sprite/red_hex_sprite.yy",},
     "resourceVersion": "1.3",
-    "name": "green_hex_sprite",
+    "name": "red_hex_sprite",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ad945097-8b29-4783-9798-cabaae203391","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f989241a-383a-4350-a4cc-b2594f6aee7e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/hex_sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "green_hex_sprite",
+  "name": "red_hex_sprite",
   "tags": [],
   "resourceType": "GMSprite",
 }
