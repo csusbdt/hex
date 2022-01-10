@@ -18,6 +18,7 @@ function hex_round(_q, _r, _s) {
 }
 
 function click_event() {
+	ds_list_clear(global.object_level);
 	var frac_q = (sqrt(3)/3 * (mouse_x - room_width / 2) -  1/3 * (mouse_y - room_height / 2)) / 32;
     var frac_r = (2/3 * (mouse_y - room_height / 2)) / 32;
 	var h = hex_round(frac_q, frac_r, -frac_q - frac_r);
