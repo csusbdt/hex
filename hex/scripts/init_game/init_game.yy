@@ -6,7 +6,7 @@
     "path": "folders/event_handlers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "game_start_event",
+  "name": "init_game",
   "tags": [],
   "resourceType": "GMScript",
 }

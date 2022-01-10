@@ -1,9 +1,10 @@
 {
   "resources": [
-    {"id":{"name":"game_start_event","path":"scripts/game_start_event/game_start_event.yy",},"order":1,},
+    {"id":{"name":"init_game","path":"scripts/init_game/init_game.yy",},"order":1,},
     {"id":{"name":"c_cell","path":"scripts/c_cell/c_cell.yy",},"order":0,},
     {"id":{"name":"green_hex_sprite","path":"sprites/green_hex_sprite/green_hex_sprite.yy",},"order":2,},
     {"id":{"name":"red_hex_sprite","path":"sprites/red_hex_sprite/red_hex_sprite.yy",},"order":3,},
+    {"id":{"name":"click_event","path":"scripts/click_event/click_event.yy",},"order":2,},
     {"id":{"name":"draw_event","path":"scripts/draw_event/draw_event.yy",},"order":0,},
     {"id":{"name":"hex_functions","path":"scripts/hex_functions/hex_functions.yy",},"order":0,},
     {"id":{"name":"controller","path":"objects/controller/controller.yy",},"order":11,},

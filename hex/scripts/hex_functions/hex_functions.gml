@@ -59,15 +59,3 @@ function c_hex(_q, _r, _sprite = green_hex_sprite, _subimg = 0) constructor {
 function hex(_q = 0, _r = 0, _sprite = green_hex_sprite, _subimg) {
 	return new c_hex(_q, _r, _sprite, _subimg);
 }
-
-/*
-function f_draw_hex(_h, _sprite, _subimg = 0) {
-	draw_sprite(
-		_sprite, 
-		_subimg,
-		room_width  / 2 + hex_size  / 2 * sqrt_3 * (h[0] + h[1] / 2), 
-		room_height / 2 + hex_size * 3 / 2 * r
-	);
-}
-*/
-
