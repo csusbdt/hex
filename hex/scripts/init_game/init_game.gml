@@ -13,4 +13,4 @@ ds_list_add(global.base_level, hex(0, 0, green_hex_sprite).move_left());
 ds_list_add(global.base_level, hex(0, 0, green_hex_sprite).move_up_left());
 ds_list_add(global.base_level, hex(0, 0, green_hex_sprite).move_up_right());
 
-ds_list_add(global.object_level, hex(0, 0, red_hex_sprite).move_down_right());
+//ds_list_add(global.object_level, hex(0, 0, red_hex_sprite).move_down_right());

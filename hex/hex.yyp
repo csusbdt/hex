@@ -8,6 +8,7 @@
     {"id":{"name":"draw_event","path":"scripts/draw_event/draw_event.yy",},"order":0,},
     {"id":{"name":"hex_functions","path":"scripts/hex_functions/hex_functions.yy",},"order":0,},
     {"id":{"name":"controller","path":"objects/controller/controller.yy",},"order":11,},
+    {"id":{"name":"controller_sprite","path":"sprites/controller_sprite/controller_sprite.yy",},"order":16,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
