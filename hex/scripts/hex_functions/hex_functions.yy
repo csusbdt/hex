@@ -6,7 +6,7 @@
     "path": "folders/functions.yy",
   },
   "resourceVersion": "1.0",
-  "name": "hex_grid_functions",
+  "name": "hex_functions",
   "tags": [],
   "resourceType": "GMScript",
 }
