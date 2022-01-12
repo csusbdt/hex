@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "event_handlers",
-    "path": "folders/event_handlers.yy",
+    "name": "controller",
+    "path": "folders/controller.yy",
   },
   "resourceVersion": "1.0",
-  "name": "draw_event",
+  "name": "controller_draw_handler",
   "tags": [],
   "resourceType": "GMScript",
 }

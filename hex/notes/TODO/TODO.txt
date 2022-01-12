@@ -1,0 +1,4 @@
+Implement an unbounded room.
+
+Change the world to screen coordinate mapping in response
+to mouse hitting edge of room.

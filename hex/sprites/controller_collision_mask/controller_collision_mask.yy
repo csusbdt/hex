@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dbd39995-aa01-4aa4-b1c0-ef0402849419","path":"sprites/controller_sprite/controller_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dbd39995-aa01-4aa4-b1c0-ef0402849419","path":"sprites/controller_sprite/controller_sprite.yy",},"LayerId":{"name":"ef4c0cd4-4d32-4810-a3df-7407a3c6cb41","path":"sprites/controller_sprite/controller_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"controller_sprite","path":"sprites/controller_sprite/controller_sprite.yy",},"resourceVersion":"1.0","name":"dbd39995-aa01-4aa4-b1c0-ef0402849419","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"dbd39995-aa01-4aa4-b1c0-ef0402849419","path":"sprites/controller_collision_mask/controller_collision_mask.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"dbd39995-aa01-4aa4-b1c0-ef0402849419","path":"sprites/controller_collision_mask/controller_collision_mask.yy",},"LayerId":{"name":"ef4c0cd4-4d32-4810-a3df-7407a3c6cb41","path":"sprites/controller_collision_mask/controller_collision_mask.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"controller_collision_mask","path":"sprites/controller_collision_mask/controller_collision_mask.yy",},"resourceVersion":"1.0","name":"dbd39995-aa01-4aa4-b1c0-ef0402849419","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"controller_sprite","path":"sprites/controller_sprite/controller_sprite.yy",},
+    "spriteId": {"name":"controller_collision_mask","path":"sprites/controller_collision_mask/controller_collision_mask.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"238ef444-2367-4fd3-b11a-598d50ad825f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dbd39995-aa01-4aa4-b1c0-ef0402849419","path":"sprites/controller_sprite/controller_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"238ef444-2367-4fd3-b11a-598d50ad825f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dbd39995-aa01-4aa4-b1c0-ef0402849419","path":"sprites/controller_collision_mask/controller_collision_mask.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"controller_sprite","path":"sprites/controller_sprite/controller_sprite.yy",},
+    "parent": {"name":"controller_collision_mask","path":"sprites/controller_collision_mask/controller_collision_mask.yy",},
     "resourceVersion": "1.3",
-    "name": "controller_sprite",
+    "name": "controller_collision_mask",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -69,11 +69,11 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "hex",
-    "path": "hex.yyp",
+    "name": "controller",
+    "path": "folders/controller.yy",
   },
   "resourceVersion": "1.0",
-  "name": "controller_sprite",
+  "name": "controller_collision_mask",
   "tags": [],
   "resourceType": "GMSprite",
 }

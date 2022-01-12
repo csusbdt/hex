@@ -3,8 +3,8 @@
   "solid": false,
   "visible": true,
   "spriteMaskId": {
-    "name": "controller_sprite",
-    "path": "sprites/controller_sprite/controller_sprite.yy",
+    "name": "controller_collision_mask",
+    "path": "sprites/controller_collision_mask/controller_collision_mask.yy",
   },
   "persistent": false,
   "parentObjectId": null,
@@ -23,15 +23,16 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "hex",
-    "path": "hex.yyp",
+    "name": "controller",
+    "path": "folders/controller.yy",
   },
   "resourceVersion": "1.0",
-  "name": "controller",
+  "name": "controller_object",
   "tags": [],
   "resourceType": "GMObject",
 }
