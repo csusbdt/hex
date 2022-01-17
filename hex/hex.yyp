@@ -4,6 +4,7 @@
     {"id":{"name":"c_cell","path":"scripts/c_cell/c_cell.yy",},"order":0,},
     {"id":{"name":"controller_step_handler","path":"scripts/controller_step_handler/controller_step_handler.yy",},"order":5,},
     {"id":{"name":"green_hex_sprite","path":"sprites/green_hex_sprite/green_hex_sprite.yy",},"order":2,},
+    {"id":{"name":"rotating_red_hex_sprite","path":"sprites/rotating_red_hex_sprite/rotating_red_hex_sprite.yy",},"order":4,},
     {"id":{"name":"red_hex_sprite","path":"sprites/red_hex_sprite/red_hex_sprite.yy",},"order":3,},
     {"id":{"name":"TODO","path":"notes/TODO/TODO.yy",},"order":6,},
     {"id":{"name":"controller_click_handler","path":"scripts/controller_click_handler/controller_click_handler.yy",},"order":2,},

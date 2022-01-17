@@ -67,19 +67,36 @@ function world_xy_to_hex_center(xy) {
 	return round_axial(mouse_axial);
 }
 
-function c_hex(_q, _r, _sprite = green_hex_sprite, _subimg = 0) constructor {
+function c_hex(_q, _r, _sprite = green_hex_sprite, _subimg = 0, _seconds_per_step = 1 / 6) constructor {
 	q          = _q;
 	r          = _r;
 	hex_sprite = _sprite;
 	subimg     = _subimg;
+	seconds_per_step = _seconds_per_step;
 	
+	if (subimg == -1) {
+		seconds_remaining = seconds_per_step;
+		subimg2 = 0;
+	} else {
+		subimg2 = subimg;
+	}
+
 	static draw = function() {
 		// hex_sprite must use middle/center for its origin
+		if (subimg == -1) {
+			seconds_remaining -= 1 / 30;
+			if (seconds_remaining <= 0) {
+				seconds_remaining += seconds_per_step;
+				if (++subimg2 >= sprite_get_number(hex_sprite)) {
+					subimg2 = 0;
+				}
+			}
+		}
 		var xy = qr2xy([q, r]);
 		var room_coords = world2room(xy);
-		draw_sprite(hex_sprite, subimg, room_coords[0], room_coords[1]);
+		draw_sprite(hex_sprite, subimg2, room_coords[0], room_coords[1]);
 		return self;
-	} 
+	}
 	
 	static move_right = function() {
 		++q;
@@ -114,6 +131,6 @@ function c_hex(_q, _r, _sprite = green_hex_sprite, _subimg = 0) constructor {
 	}
 }
 
-function hex(_q = 0, _r = 0, _sprite = green_hex_sprite, _subimg = 0) {
-	return new c_hex(_q, _r, _sprite, _subimg);
+function hex(_q = 0, _r = 0, _sprite = green_hex_sprite, _subimg = 0, _seconds_per_step) {
+	return new c_hex(_q, _r, _sprite, _subimg, _seconds_per_step);
 }
